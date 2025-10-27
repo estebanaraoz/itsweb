@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITS Tech</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/42b68a1ae8.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="text-gray-800">
+<!-- Topbar -->
+<div id="topbar" class="absolute top-0 left-0 w-full border-b border-white/40 text-white z-20">
+  <div class="w-full md:max-w-screen-xl mx-0 md:mx-auto flex justify-between items-center px-4 py-4">
+    <div>
+      <a href="/"><img src="../assets/img/logo.png" alt="ITS Tech" class="h-10 md:h-14" /></a>
+    </div>
+    <div class="flex items-center space-x-6 text-3xl">
+      <a href="https://api.whatsapp.com/send?phone=5491123977449&text=Hola%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n." target="_blank" aria-label="WhatsApp" class="hover:text-red-600"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="mailto:administracion@itstech.com.ar" target="_blank" aria-label="Email" class="hover:text-red-600"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://www.instagram.com/itstechok/" target="_blank" aria-label="Instagram" class="hover:text-red-600"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+</div>
+  <!-- Navbar -->
+  <header class="absolute top-20 left-0 w-full z-10">
+    <nav class="w-full md:max-w-screen-xl mx-0 md:mx-auto flex items-center justify-between px-4 py-6 text-white">
+      <div class="flex items-center space-x-8">
+        <ul class="hidden md:flex space-x-6 text-xl">
+          <li><a href="#nosotros" class="hover:text-red-600">Nosotros</a></li>
+          <li><a href="#soluciones" class="hover:text-red-600">Soluciones</a></li>
+          <li><a href="#contacto" class="hover:text-red-600">Contacto</a></li>
+        </ul>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=5491123977449&text=Hola%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n." target="_blank" class="bg-[#C8102E] text-white uppercase px-6 py-3 rounded-lg hover:bg-[#A50F1D] text-xl hidden md:inline-block">Solicitar Asistencia</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+
+<section id="hero" class="relative w-full min-h-[calc(100vh-60px)] md:min-h-screen bg-cover bg-center flex items-center" style="background-image:url('../assets/img/hero-bg.jpg')">
+  <div class="absolute inset-0 bg-blue-700 opacity-30"></div>
+  <div class="relative mx-0 md:mx-auto w-full md:max-w-screen-xl grid grid-cols-12 px-4 lg:px-4">
+    <div class="col-start-1 col-span-12 md:col-span-7 text-white mt-12">
+      <p class="mb-4 text-sm md:text-base text-gray-100 font-bold uppercase">BRINDAMOS ASISTENCIA INMEDIATA</p>
+      <h1 class="text-4xl md:text-6xl font-bold leading-tight uppercase">¿Tu equipo funciona lento o se cuelga?</h1>
+      <p class="mt-4 text-base md:text-xl">Sabemos lo que está en juego: quizás debas presentar un formulario y tu computadora se congela, se cae la conexión Wi‑Fi o no podés cargar una factura urgente. En ITS Tech te ayudamos a resolverlo rápido, sin vueltas para que tu negocio siga en marcha.</p>
+      <a href="#contacto" class="inline-block bg-[#C8102E] text-white uppercase px-6 py-3 rounded-lg hover:bg-[#A50F1D] text-lg md:text-xl mt-4">Contactanos ahora</a>
+    </div>
+  </div>
+</section>
+  <main class="space-y-24">
+    <!-- Quiénes somos -->
+    <section id="nosotros" class="w-full md:max-w-screen-xl mx-0 md:mx-auto px-0 md:px-4 relative -mt-10 z-10">
+      <div class="grid md:grid-cols-12 shadow rounded-lg overflow-hidden border border-[#e6c979]">
+        <div class="bg-white p-10 space-y-4 text-left md:col-span-7">
+          <h2 class="text-2xl md:text-3xl font-bold text-[#C8102E]">Soporte Técnico Inteligente</h2>
+          <p class="text-sm md:text-base leading-relaxed">En ITS Tech brindamos soluciones informáticas ágiles y personalizadas. Con más de 15 años de experiencia actuamos rápido con diagnóstico certero, tecnología de vanguardia y atención humana para que tu negocio nunca se detenga. Somos tu aliado en soporte técnico, automatización y gestión IT.</p>
+        </div>
+        <div class="bg-gray-800 text-white p-10 md:col-span-5">
+          <div class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 h-full">
+            <div class="p-4 flex flex-col items-center justify-center">
+              <p class="text-4xl md:text-5xl font-bold">+15</p>
+              <p class="text-base font-medium">Años de experiencia</p>
+            </div>
+            <div class="p-6 md:p-4 flex flex-col items-center justify-center border-t border-white/20 md:border-t-0 md:border-l md:border-white/20">
+              <p class="text-4xl md:text-5xl font-bold">&lt;5m</p>
+              <p class="text-base font-medium">Tiempo de respuesta</p>
+            </div>
+            <div class="p-6 md:p-4 flex flex-col items-center justify-center border-t border-white/20 md:border-t md:border-white/20">
+              <p class="text-4xl md:text-5xl font-bold">+6000</p>
+              <p class="text-base font-medium">Tickets resueltos</p>
+            </div>
+            <div class="p-6 md:p-4 flex flex-col items-center justify-center border-t border-white/20 md:border-l md:border-t md:border-white/20">
+              <p class="text-4xl md:text-5xl font-bold">99.8%</p>
+              <p class="text-base font-medium">Respuestas positivas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Nuestras fortalezas -->
+  <section class="!mt-0 w-full bg-gray-50 py-12">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="grid gap-8 md:grid-cols-3">
+      <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-start text-left space-y-4 border border-[#e6c979]">
+        <div class="self-center w-48 h-48 flex items-center justify-center text-red-600">
+          <svg class="w-32 h-32" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold">Soluciones Potenciadas</h3>
+        <p class="text-gray-700 text-sm md:max-w-sm lg:max-w-md text-left">Combinamos nuestro conocimiento con inteligencia artificial para anticipar fallas y diagnosticar al instante. La tecnología impulsa cada respuesta, mientras un equipo experto asegura que tu infraestructura nunca se detenga.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-start text-left space-y-4 border border-[#e6c979]">
+        <div class="self-center w-48 h-48 flex items-center justify-center text-red-600">
+          <i class="fa-brands fa-whatsapp fa-8x"></i>
+        </div>
+        <h3 class="text-xl font-semibold">Comunicación Directa</h3>
+        <p class="text-gray-700 text-sm md:max-w-sm lg:max-w-md text-left">Hablás directo con nosotros por WhatsApp, sin formularios ni esperas. Si surge algo urgente, respondemos en menos de cinco minutos y podemos brindar asistencia remota o telefónica de inmediato. Así resolvemos problemas desde el primer contacto.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-md p-6 flex flex-col items-start text-left space-y-4 border border-[#e6c979]">
+        <div class="self-center w-48 h-48 flex items-center justify-center text-red-600">
+          <svg class="w-32 h-32" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold">Resolución Garantizada</h3>
+        <p class="text-gray-700 text-sm md:max-w-sm lg:max-w-md text-left">Nos ocupamos de tus incidentes de principio a fin. Abrimos un ticket, te actualizamos paso a paso y no nos damos por vencidos hasta solucionarlo. Más del noventa por ciento se resuelve en menos de una hora para mayor tranquilidad.</p>
+      </div>
+    </div>
+    <div class="text-center mt-12">
+      <a href="#contacto" class="inline-block border-2 border-[#C8102E] text-[#C8102E] uppercase px-6 py-3 rounded-lg hover:bg-[#C8102E] hover:text-white text-lg md:text-xl">Ver planes</a>
+    </div>
+  </div>
+</section>
+  <!-- Nuestras soluciones -->
+  <section id="soluciones-accion" class="!mt-0 w-full bg-white py-12">
+    <div class="max-w-7xl mx-auto px-4 space-y-8 mb-12">
+      <div class="py-6">
+        <div class="grid md:grid-cols-2 gap-8 text-left">
+          <p class="border-l-4 border-[#C8102E] pl-4 text-xl md:text-2xl lg:text-3xl leading-tight"><strong>Impulsamos tu pyme</strong> con soporte confiable y visión de vanguardia.</p>
+          <p><strong>Si algo falla, lo resolvemos. Si algo no está configurado, lo dejamos listo.</strong> Nuestro equipo combina experiencia real con herramientas modernas para que tu negocio no pierda tiempo, ni oportunidades. Conocenos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2">
+      <!-- Column left -->
+      <div class="relative xl:flex xl:justify-end">
+        <img src="../assets/img/soluciones-left.png" class="absolute inset-0 h-full w-full object-cover" alt="">
+        <div class="absolute inset-0 bg-blue-700 opacity-70"></div>
+        <div class="solutions-column pl-6 pr-4 lg:pl-16 lg:pr-10 py-10 relative z-10 text-white">
+          <ul class="solutions-list">
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Recuperamos archivos eliminados rápidamente</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Configuramos Outlook y correos corporativos</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Solucionamos problemas de impresoras en red</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Reparamos computadoras demasiado lentas</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Solucionamos errores críticos Word</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Desbloqueamos archivos bloqueados por antivirus</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Restauramos accesos administrativos Windows</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Configuramos backups automáticos en la nube</span></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Column right -->
+      <div class="relative xl:flex xl:justify-start">
+        <img src="../assets/img/soluciones-right.png" class="absolute inset-0 h-full w-full object-cover" alt="">
+        <div class="absolute inset-0 bg-blue-700 opacity-70"></div>
+        <div class="solutions-column pl-6 pr-4 lg:pl-10 lg:pr-16 py-10 relative z-10 text-white">
+          <ul class="solutions-list">
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Migramos correos sin pérdida de datos</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Brindamos soporte remoto confiable</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Instalamos Office completo y estable</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Solucionamos fallos complejos en Excel</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Configuramos cuentas Gmail y Hotmail</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Conectamos cámaras IP de seguridad</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Implementamos telefonía IP confiable</span></li>
+            <li class="flex items-start font-semibold"><i class="fa-solid fa-check text-white mt-1 mr-2" aria-label="Check"></i><span class="font-semibold text-white">Configuramos VPN segura y estable</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Testimonios -->
+    <section id="testimonios" class="!mt-0 w-full bg-white pt-0 pb-12">
+      <div class="max-w-7xl mx-auto px-4 space-y-8">
+        <h2 class="text-center">
+          <span class="block text-gray-600 text-base md:text-lg">¿Qué dicen nuestros clientes?</span>
+          <span class="block text-2xl md:text-3xl font-extrabold text-black">Testimonios</span>
+        </h2>
+        <div id="testimonialWrapper" class="relative overflow-x-hidden">
+          <div id="testimonialContainer" class="space-x-6 lg:grid lg:grid-cols-12 lg:gap-8 lg:space-x-0">
+          <div class="testimonial-card bg-white shadow-md rounded-xl p-6 space-y-4 min-w-full lg:min-w-0 my-4 border border-blue-600 lg:col-span-4">
+            <div class="flex items-start">
+              <img src="../assets/img/testimonios/testimonio-1.jpg" alt="Camila Reynoso" class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover mr-4">
+              <div class="flex-1">
+                <div class="flex justify-between items-start">
+                  <p class="font-semibold text-[#333]">Camila Reynoso</p>
+                  <img src="../assets/img/google.svg" alt="Google" class="w-4 h-4">
+                </div>
+                <p class="text-sm text-gray-500">Responsable de diseño</p>
+                <div class="flex text-yellow-400 my-1">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-base md:text-lg text-[#333] leading-relaxed">"En menos de una hora solucionaron todo y me explicaron con claridad. Excelente predisposición del técnico, muy recomendable."</p>
+          </div>
+          <div class="testimonial-card bg-white shadow-md rounded-xl p-6 space-y-4 min-w-full lg:min-w-0 my-4 border border-blue-600 lg:col-span-4">
+            <div class="flex items-start">
+              <img src="../assets/img/testimonios/testimonio-2.jpg" alt="Juan Manuel Caballero" class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover mr-4">
+              <div class="flex-1">
+                <div class="flex justify-between items-start">
+                  <p class="font-semibold text-[#333]">Juan Manuel Caballero</p>
+                  <img src="../assets/img/google.svg" alt="Google" class="w-4 h-4">
+                </div>
+                <p class="text-sm text-gray-500">Gerente de recursos humanos</p>
+                <div class="flex text-yellow-400 my-1">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-base md:text-lg text-[#333] leading-relaxed">"Tenía un problema que nadie resolvía. El equipo de ITS lo detectó en minutos y no tuve más inconvenientes. Gran equipo."</p>
+          </div>
+          <div class="testimonial-card bg-white shadow-md rounded-xl p-6 space-y-4 min-w-full lg:min-w-0 my-4 border border-blue-600 lg:col-span-4">
+            <div class="flex items-start">
+              <img src="../assets/img/testimonios/testimonio-3.jpg" alt="Cecilia Romero" class="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover mr-4">
+              <div class="flex-1">
+                <div class="flex justify-between items-start">
+                  <p class="font-semibold text-[#333]">Cecilia Romero</p>
+                  <img src="../assets/img/google.svg" alt="Google" class="w-4 h-4">
+                </div>
+                <p class="text-sm text-gray-500">Coordinadora administrativa</p>
+                <div class="flex text-yellow-400 my-1">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-base md:text-lg text-[#333] leading-relaxed">"Valoro la rapidez de respuesta y cómo entienden lo que necesito. Siempre resuelven sin vueltas. Es un placer trabajar con ellos."</p>
+          </div>
+          </div>
+          <div class="flex justify-center space-x-4 mt-4 lg:hidden">
+            <button id="prevTestimonial" class="w-10 h-10 flex items-center justify-center bg-white border border-gray-300 text-gray-600 rounded">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button id="nextTestimonial" class="w-10 h-10 flex items-center justify-center bg-white border border-gray-300 text-gray-600 rounded">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="text-center mt-8">
+          <a href="#contacto" class="inline-block border-2 border-[#C8102E] text-[#C8102E] uppercase px-6 py-3 rounded-lg hover:bg-[#C8102E] hover:text-white text-lg md:text-xl">Ver planes</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="soluciones" class="!mt-0 -mt-24 relative w-full py-20 bg-[url('img/services-bg.png')] bg-cover bg-center bg-no-repeat">
+      <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/30"></div>
+      <div class="relative max-w-7xl mx-auto px-6 md:px-12">
+        <h2 class="text-4xl md:text-5xl font-bold text-white text-center mb-8">Nuestras soluciones IT</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white/10 backdrop-blur-md border border-red-500/40 rounded-xl p-6 shadow-lg transition hover:scale-105 hover:shadow-2xl duration-300" data-aos="fade-up">
+            <svg class="h-12 w-12 text-red-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372a1.125 1.125 0 0 0-.852-1.091l-4.423-1.106a1.125 1.125 0 0 0-1.173.417l-.97 1.293a.75.75 0 0 1-1.21.38 12.035 12.035 0 0 1-7.143-7.143.75.75 0 0 1 .38-1.21l1.293-.97a1.125 1.125 0 0 0 .417-1.173L6.963 3.102A1.125 1.125 0 0 0 5.872 2.25H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-white mt-4 mb-2">Soporte IT</h3>
+            <ul class="list-disc list-inside text-gray-200 text-sm space-y-1">
+              <li>Ayuda remota en ≤ 30 min.</li>
+              <li>Visitas on-site programadas.</li>
+              <li>SLA oro/plata según plan.</li>
+            </ul>
+          </div>
+          <div class="bg-white/10 backdrop-blur-md border border-red-500/40 rounded-xl p-6 shadow-lg transition hover:scale-105 hover:shadow-2xl duration-300" data-aos="fade-up">
+            <svg class="h-12 w-12 text-red-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 0 1-3-3m3 3a3 3 0 1 0 0 6h13.5a3 3 0 1 0 0-6m-16.5-3a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3m-19.5 0a4.5 4.5 0 0 1 .9-2.7L5.737 5.1a3.375 3.375 0 0 1 2.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 0 1 .9 2.7m0 0a3 3 0 0 1-3 3m0 3h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Zm-3 6h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Z"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-white mt-4 mb-2">Gestión Infra</h3>
+            <ul class="list-disc list-inside text-gray-200 text-sm space-y-1">
+              <li>Servidores físicos y cloud.</li>
+              <li>Monitoreo 24×7 y parches automáticos.</li>
+              <li>Continuidad garantizada.</li>
+            </ul>
+          </div>
+          <div class="bg-white/10 backdrop-blur-md border border-red-500/40 rounded-xl p-6 shadow-lg transition hover:scale-105 hover:shadow-2xl duration-300" data-aos="fade-up">
+            <svg class="h-12 w-12 text-red-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-white mt-4 mb-2">Cloud Backup</h3>
+            <ul class="list-disc list-inside text-gray-200 text-sm space-y-1">
+              <li>Copias cifradas 3-2-1.</li>
+              <li>Restauración mensual testeada.</li>
+              <li>Retención flexible (30–365 días).</li>
+            </ul>
+          </div>
+          <div class="bg-white/10 backdrop-blur-md border border-red-500/40 rounded-xl p-6 shadow-lg transition hover:scale-105 hover:shadow-2xl duration-300" data-aos="fade-up">
+            <svg class="h-12 w-12 text-red-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-white mt-4 mb-2">Hosting Empresarial</h3>
+            <ul class="list-disc list-inside text-gray-200 text-sm space-y-1">
+              <li>Web + correos corporativos.</li>
+              <li>SSL y migración sin cortes.</li>
+              <li>Soporte local 24×7.</li>
+            </ul>
+          </div>
+          <div class="bg-white/10 backdrop-blur-md border border-red-500/40 rounded-xl p-6 shadow-lg transition hover:scale-105 hover:shadow-2xl duration-300" data-aos="fade-up">
+            <svg class="h-12 w-12 text-red-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-white mt-4 mb-2">Recuperación Datos</h3>
+            <ul class="list-disc list-inside text-gray-200 text-sm space-y-1">
+              <li>Discos y RAID dañados.</li>
+              <li>Diagnóstico gratuito 24 h.</li>
+              <li>Laboratorio certificado.</li>
+            </ul>
+          </div>
+          <div class="bg-white/10 backdrop-blur-md border border-red-500/40 rounded-xl p-6 shadow-lg transition hover:scale-105 hover:shadow-2xl duration-300" data-aos="fade-up">
+            <svg class="h-12 w-12 text-red-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z"/>
+            </svg>
+            <h3 class="text-xl font-semibold text-white mt-4 mb-2">Consultoría Tecnológica</h3>
+            <ul class="list-disc list-inside text-gray-200 text-sm space-y-1">
+              <li>Roadmap IA & automatización.</li>
+              <li>Talleres in-company.</li>
+              <li>ROI en menos de 6 meses.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center">
+          <p class="text-lg md:text-xl text-gray-200 mt-8 mb-4">Servicios a medida que se adaptan al ritmo de tu negocio.</p>
+          <a href="#contacto" class="inline-block bg-[#C8102E] text-white uppercase px-6 py-3 rounded-lg hover:bg-[#A50F1D] text-lg md:text-xl mt-4">Solicitar diagnóstico</a>
+      </div>
+    </section>
+
+    <!-- Planes -->
+    <section id="planes" class="!mt-0 w-full bg-white py-12">
+      <div class="max-w-7xl mx-auto px-4 space-y-8">
+        <h2 class="text-center">
+          <span class="block text-2xl md:text-3xl font-extrabold text-black">Planes</span>
+        </h2>
+        <div class="grid gap-8 md:grid-cols-3 items-stretch">
+          <div class="border border-[#e6c979] rounded-xl shadow-md p-6 flex flex-col h-full">
+            <h3 class="text-xl font-semibold text-center mb-4">Acceso Remoto</h3>
+          <ul class="text-base leading-relaxed space-y-3 text-left w-full flex-grow mb-6">
+              <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Soporte remoto</span></li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Actualización básica de software</span></li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Respuestas en horario laboral</span></li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Configuración de correo</span></li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Optimización de equipos</span></li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Asesoramiento inicial</span></li>
+            </ul>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5491123977449&text=Hola%2C%20estoy%20interesado%20en%20el%20plan%20Acceso%20Remoto." class="mt-auto inline-block bg-[#C8102E] text-white px-6 py-2 rounded-lg shadow font-semibold uppercase text-center hover:bg-[#A50F1D]">Consultar</a>
+          </div>
+          <div class="border-2 border-[#A50F1D] bg-[#C8102E] text-white rounded-xl shadow-md p-6 flex flex-col h-full">
+            <h3 class="text-xl font-semibold text-center mb-4">Corporate</h3>
+            <ul class="text-base leading-relaxed space-y-3 text-left w-full flex-grow mb-6">
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-200 mr-2"></i><span>Soporte remoto y presencial</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-200 mr-2"></i><span>Asistencia prioritaria</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-200 mr-2"></i><span>Mantenimiento mensual</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-200 mr-2"></i><span>Gestión de backups</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-200 mr-2"></i><span>Monitoreo 24/7</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-200 mr-2"></i><span>Telefonía IP integrada</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-200 mr-2"></i><span>Administración de servidores</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-200 mr-2"></i><span>Seguridad en red avanzada</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-200 mr-2"></i><span>Licencias de software clave</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-200 mr-2"></i><span>Reportes de estado mensuales</span></li>
+            </ul>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5491123977449&text=Hola%2C%20estoy%20interesado%20en%20el%20plan%20Corporate." class="mt-auto inline-block bg-white text-[#C8102E] px-6 py-2 rounded-lg shadow font-semibold uppercase text-center hover:bg-gray-100">Consultar</a>
+          </div>
+          <div class="border border-yellow-600 bg-yellow-50 text-yellow-900 rounded-xl shadow-md p-6 flex flex-col h-full">
+            <h3 class="text-xl font-semibold text-center mb-4">Deluxe</h3>
+            <ul class="text-base leading-relaxed space-y-3 text-left w-full flex-grow mb-6">
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Soporte remoto y presencial</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Asistencia prioritaria</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Mantenimiento mensual</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Gestión de backups</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Monitoreo 24/7</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Telefonía IP integrada</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Administración de servidores</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Seguridad en red avanzada</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Consultor tecnológico dedicado</span></li>
+                <li class="flex items-center"><i class="fa-solid fa-check text-green-600 mr-2"></i><span>Estrategia a medida</span></li>
+            </ul>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5491123977449&text=Hola%2C%20estoy%20interesado%20en%20el%20plan%20Deluxe." class="mt-auto inline-block bg-yellow-600 text-white px-6 py-2 rounded-lg shadow font-semibold uppercase text-center hover:bg-yellow-700">Consultar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="!mt-0 w-full bg-gray-800 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 space-y-8">
+        <div class="text-center space-y-2">
+          <h2 class="text-3xl md:text-4xl font-bold">¿Listo para mejorar tu soporte informático?</h2>
+          <p class="text-gray-200 text-base md:text-lg">Contactanos hoy mismo y descubrí cómo podemos ayudarte.</p>
+        </div>
+        <div class="grid gap-8 md:grid-cols-2 items-start">
+          <div class="space-y-6">
+            <h3 class="text-2xl font-semibold">¿Cómo te ayudamos?</h3>
+            <p>Tenemos un laboratorio para asistencia remota o revisión de tu computadora. También contamos con vehículos para retiro y entrega de equipos en todo el AMBA.</p>
+
+            <div class="bg-white text-gray-800 rounded-lg shadow p-6 space-y-4">
+              <h4 class="text-xl font-semibold flex items-center justify-center"><i class="fa-brands fa-whatsapp text-2xl mr-2 text-green-600"></i>WhatsApp</h4>
+              <p>Escribinos al +54 9 11 2397 7449 y obtené ayuda inmediata.</p>
+              <a href="https://api.whatsapp.com/send?phone=5491123977449&amp;text=Hola%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n." target="_blank" class="block bg-green-500 text-white py-2 px-4 rounded-lg text-center hover:bg-green-600">Abrir chat</a>
+            </div>
+
+            <div class="bg-white text-gray-800 rounded-lg shadow p-6 space-y-4">
+              <h4 class="text-xl font-semibold flex items-center justify-center"><i class="fa-solid fa-envelope text-2xl mr-2 text-blue-600"></i>Correo</h4>
+              <form action="contacto.php" method="post" class="space-y-3">
+                <input type="email" name="email" class="w-full border p-2 rounded" placeholder="Tu email" required>
+                <button type="submit" class="block w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Enviar</button>
+              </form>
+            </div>
+          </div>
+          <div class="w-full">
+            <div class="relative pb-[56.25%] h-0 overflow-hidden rounded-lg shadow">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.330307726211!2d-58.395447884363456!3d-34.595808180461525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabde1df01bd%3A0x59fc6e926c4505ee!2sAv.+Santa+Fe+%26+Av.+Callao%2C+C1061+CABA!5e0!3m2!1sen!2sar!4v1532811998985" class="absolute top-0 left-0 w-full h-full border-0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="w-full bg-gray-900 text-gray-300 mt-0">
+    <div class="w-full md:max-w-screen-xl mx-0 md:mx-auto px-4 py-8 grid md:grid-cols-3 gap-6">
+      <div>
+        <h3 class="font-semibold text-white text-xl">ITS Tech</h3>
+        <p class="text-base">info@itstech.com<br>+54 11 1234 5678</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white text-xl">Links</h4>
+        <ul class="text-base space-y-2">
+          <li><a href="#nosotros" class="hover:text-white">Nosotros</a></li>
+          <li><a href="#soluciones" class="hover:text-white">Soluciones</a></li>
+          <li><a href="#contacto" class="hover:text-white">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="flex items-start space-x-4 text-2xl">
+        <a href="#" aria-label="Twitter" class="hover:text-white">🐦</a>
+        <a href="#" aria-label="Facebook" class="hover:text-white">📘</a>
+        <a href="#" aria-label="Instagram" class="hover:text-white">📸</a>
+      </div>
+    </div>
+  </footer>
+  <a href="https://api.whatsapp.com/send?phone=5491123977449&text=Hola%2C%20necesito%20m%C3%A1s%20informaci%C3%B3n." class="btn-whatsapp offset-right" target="_blank" aria-label="Abrir chat de WhatsApp">
+    <i class="fa-brands fa-whatsapp my-float"></i>
+  </a>
+  <a href="#" class="back-to-top offset-right" aria-label="Volver arriba">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+      <path fill-rule="evenodd" d="M4.22 15.28a.75.75 0 0 0 1.06 0L12 8.56l6.72 6.72a.75.75 0 0 0 1.06-1.06l-7.25-7.25a.75.75 0 0 0-1.06 0l-7.25 7.25a.75.75 0 0 0 0 1.06z" clip-rule="evenodd" />
+    </svg>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
