@@ -13,17 +13,21 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
+$nombre = trim((string) filter_input(INPUT_POST, 'nombre', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
+$empresa = trim((string) filter_input(INPUT_POST, 'empresa', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
 $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+$telefono = trim((string) filter_input(INPUT_POST, 'telefono', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
+$mensaje = trim((string) filter_input(INPUT_POST, 'mensaje', FILTER_UNSAFE_RAW));
 
-if (!$email) {
-    render_page('Dato faltante', 'Necesitamos un correo válido para ponernos en contacto. Volvé e intentá nuevamente.', 400);
+if ($nombre === '' || $empresa === '' || !$email || $telefono === '' || $mensaje === '') {
+    render_page('Datos faltantes', 'Necesitamos todos los datos del formulario para ayudarte mejor. Volvé e intentá nuevamente.', 400);
     exit;
 }
 
 $to = 'administracion@itstech.com.ar';
 $subject = 'Nuevo contacto desde itstech.com.ar';
 $date = (new DateTime('now', new DateTimeZone('America/Argentina/Buenos_Aires')))->format('d/m/Y H:i');
-$body = "Se registró un nuevo pedido de información desde el sitio web.\n\nCorreo: {$email}\nFecha y hora: {$date} (America/Argentina/Buenos_Aires)\n\nRecordatorio: respondé al contacto a la brevedad.";
+$body = "Se registró un nuevo pedido de información desde el sitio web.\n\nNombre: {$nombre}\nEmpresa: {$empresa}\nCorreo: {$email}\nTeléfono: {$telefono}\nMensaje:\n{$mensaje}\n\nFecha y hora: {$date} (America/Argentina/Buenos_Aires)\n\nRecordatorio: respondé al contacto a la brevedad.";
 $headers = [
     'From: notificaciones@itstech.com.ar',
     'Reply-To: ' . $email,
